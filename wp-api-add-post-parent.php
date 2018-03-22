@@ -34,6 +34,7 @@ class WP_API_Add_Post_Parent{
 	}
 
 	function set_post_parent( $value, $post, $attr, $request, $object_type ) {
+		//permission to edit built-in post types is handled for us
 		wp_update_post(
 			array(
 				'ID'          => $post->ID,

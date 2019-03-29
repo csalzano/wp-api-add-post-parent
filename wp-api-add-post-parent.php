@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Add Post Parent to WP API
- * Plugin URI: https://github.com/mistercorey/wp-api-add-post-parent
+ * Plugin URI: https://github.com/csalzano/wp-api-add-post-parent
  * Description: Add a field `parent` to the /v2/posts and /v2/media routes of the WP API
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Corey Salzano
  * Author URI: https://profiles.wordpress.org/salzano
  * Text Domain: wp-api-add-post-parent
